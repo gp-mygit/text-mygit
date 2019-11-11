@@ -10,4 +10,11 @@ public interface UserDao {
        * 修改用户信息
        */
       void update();
+      
+      /**
+       * 查询用户信息
+       */
+      void query();
+      
+      
 }
